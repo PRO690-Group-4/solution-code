@@ -1,0 +1,16 @@
+docker build -t goranorec/dockerwebapp .
+
+docker images
+
+docker run -p 49161:8080 goranorec/dockerwebappv2.3
+
+http://localhost:49160
+
+
+Issue: Cannot run program - nohup
+
+	https://stackoverflow.com/questions/45140614/jenkins-pipeline-sh-fail-with-cannot-run-program-nohup-on-windows
+
+	
+adding the port in firewall
+
